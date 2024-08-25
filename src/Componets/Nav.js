@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import image from "../Images/logo.jpg"
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,7 @@ const Nav = () => {
   const Links = [
     {
       name: "Home",
-      link: "https://meet.google.com/landing",
+      link: "/",
       icon: <ion-icon name="home-outline"></ion-icon>,
     },
     {
@@ -24,15 +25,20 @@ const Nav = () => {
       link: "/",
       icon: <ion-icon name="people-outline"></ion-icon>,
     },
+    {
+      name: "Login",
+      link: "/login",
+      icon: <ion-icon name="people-outline"></ion-icon>,
+    },
   ];
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 bg-white z-10">
-      <div className="flex items-center justify-between p-4">
+      <div className="flex items-center justify-between p-2">
 
         <div className="flex items-center">
           <img
-            src="./image/logo.jpg"
+            src={image}
             alt="logo"
             className="logo"
             width={80}
@@ -46,7 +52,7 @@ const Nav = () => {
               <li key={index} className="text-xl">
                 <a
                   href={link.link}
-                  className="flex items-center space-x-2 text-gray-800 hover:text-blue-600"
+                  className="flex items-center space-x-2 text-gray-800 hover:text-blue-600 "
                 >
                   {link.icon}
                   <span>{link.name}</span>
@@ -57,7 +63,7 @@ const Nav = () => {
         </div>
 
 
-        <div className="hidden md:flex items-center space-x-4 text-red-700">
+        <div className="hidden md:flex items-center space-x-4 text-red-700 ">
           <button>
             <ion-icon name="logo-instagram"></ion-icon>
           </button>
@@ -93,7 +99,7 @@ const Nav = () => {
               name="close-outline"
               style={{ fontSize: "40px" }}
             ></ion-icon>
-            
+
           </button>
         </div>
         <ul className="space-y-4 text-center">
@@ -110,7 +116,7 @@ const Nav = () => {
           ))}
         </ul>
 
-        <div className="flex justify-center space-x-4 text-red-700 mt-4">
+        <div className="flex justify-center space-x-4 text-red-700 gap-5">
           <button>
             <ion-icon name="logo-instagram"></ion-icon>
           </button>

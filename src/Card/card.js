@@ -2,7 +2,7 @@ import React from 'react'
 import image1 from "../Images/ram.avif"
 import image2 from "../Images/ram.avif"
 import image3 from "../Images/g.avif"
-import image4 from "../Images/4img.jpg"
+import image4 from "../Images/3img.jpg"
 
 const Link = [
     {
@@ -46,12 +46,25 @@ function card() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6">
             {Link.map((link) => (
-                <div key={card.id} className='py-2 px-4 m-4'>
-                    <div className='rounded overflow-hidden shadow-lg max-w-sm border-gray-300'>
+                <div key={card.id} className='py-2 px-4 m-4 '>
+
+                    <div className='rounded overflow-hidden shadow-lg max-w-sm border-gray-300 '>
+
+                        {/* <img src={link.src} alt={link.alt} /> */}
+                        <div className='relative w-full h-48'> {/* Adjust h-48 to desired height */}
+                            <img
+                                src={link.src}
+                                alt={link.alt}
+                                className='absolute inset-0 w-full h-full object-cover'
+                            />
+                        </div>
                         <a href={link.link} className='rounded overflow-hidden shadow-lg max-w-sm border border-gray-300'>
-                            {link.src}
-                            {link.alt}
-                            {link.liveCount}
+
+                            {/* {link.src} */}
+
+                            {/* {console.log("this is image", link)} */}
+
+
 
 
 
@@ -70,6 +83,7 @@ function card() {
                     </div>
                 </div>
             ))}
+
 
 
         </div>

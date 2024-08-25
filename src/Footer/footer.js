@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa"
+import image from "../Images/p51.png";
 
 const Sections = [
     {
@@ -77,9 +78,16 @@ function footer() {
                         <p className='uppercase '>
                             Developed & Design
                         </p>
+                        <div className="flex justify-center items-center">
+                            <img
+                                src={image}
+                                alt="sample"
+                                className="w-24 h-24 object-cover rounded-md shadow-sm"
+                            />
+                        </div>
                         <h3>P5 Digital Soltution</h3>
 
-                        <div className='flex  justify-between sm:w-[300px] pt-4 text-2xl'>
+                        <div className='flex  justify-between items-center sm:w-[300px] pt-4 text-2xl'>
                             {
                                 items.map((x, index) => {
                                     return <x.icon key={index} className='hover:text-white cursor-pointer' />

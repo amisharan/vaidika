@@ -1,4 +1,6 @@
 import "./App.css";
+// import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Banner from "./Banner/banner";
 import Nav from "./Componets/Nav";
 import Heading from "./Heading/heading";
@@ -11,23 +13,31 @@ import Vaid from "./Vaid/vaid";
 import Vaidi from "./Vaidi/vaidi";
 import Vaidik from "./Vaidik/vaidik";
 import Footer from "./Footer/footer";
+// import { LogIn } from "react-ionicons";
+import Login from "./Login/login";
 
 function App() {
   return (
-    <>
+
+    <Router >
       <Nav />
-      <Banner />
-      <Heading />
-      <Menu />
-      <Live />
-      <Card />
-      <Pandit />
-      <Cardgrid />
-      <Vaid />
-      <Vaidi />
-      <Vaidik />
-      <Footer />
-    </>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+
+        {/* <Banner />
+        <Heading />
+        <Menu />
+        <Live />
+        <Card />
+        <Pandit />
+        <Cardgrid />
+        <Vaid />
+        <Vaidi />
+        <Vaidik />
+        <Footer /> */}
+      </Routes>
+      {/* <LogIn /> */}
+    </Router>
   );
 }
 
