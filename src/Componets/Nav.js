@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import image from "../Images/logo.jpg"
+import image from "../Images/logo.jpg";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,13 +51,13 @@ const Nav = () => {
           <ul className="flex items-center space-x-6">
             {Links.map((link, index) => (
               <li key={index} className="text-xl">
-                <a
-                  href={link.link}
+                <Link
+                  to={link.link}
                   className="flex items-center space-x-2 text-gray-800 hover:text-blue-600 "
                 >
                   {link.icon}
                   <span>{link.name}</span>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -105,13 +106,13 @@ const Nav = () => {
         <ul className="space-y-4 text-center">
           {Links.map((link, index) => (
             <li key={index} className="text-xl">
-              <a
-                href={link.link}
+              <Link
+                to={link.link}
                 className="flex items-center justify-center space-x-2 text-gray-800 hover:text-blue-600"
               >
                 {link.icon}
                 <span>{link.name}</span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
