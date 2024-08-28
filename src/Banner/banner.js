@@ -7,9 +7,9 @@ const Banner = () => {
     <div className="relative h-screen">
       <img src={image} alt="Diwali" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-end p-4 md:p-8 lg:p-12">
-        <div className="text-right text-white max-w-lg">
-          <h1 className="text-Roboto">THIS FESTIVAL SEASON</h1>
-          <h1 className=" text-3xl text-Roboto-400 font-bold sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight ">
+        <div className="text-right text-white max-w-lg ">
+          <h1 className="font-Poppins">THIS FESTIVAL SEASON</h1>
+          <h1 className=" text-3xl font-Poppins font-bold sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight ">
             Watch Live Aarti on the Vadika
           </h1>
           <p className="mb-6 text-sm sm:text-base md:text-lg lg:text-xl">

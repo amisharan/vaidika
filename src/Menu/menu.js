@@ -7,8 +7,8 @@ function menu() {
             <img src={image} alt="pandit" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-4 md:p-8 lg:p-12">
                 <div className="text-left text-white max-w-lg">
-                    <h1 className="text-Roboto">THIS FESTIVAL SEASON</h1>
-                    <h1 className="text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+                    <h1 className="font-Roboto">THIS FESTIVAL SEASON</h1>
+                    <h1 className="text-3xl font-Roboto  sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
                         HIRE PANDIT'S ON VAIDIKA
                     </h1>
                     <p className="mb-6 text-sm sm:text-base md:text-lg lg:text-xl">
