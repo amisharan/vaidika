@@ -24,7 +24,7 @@ function vaid() {
                         </button>
                     </div>  </div>
                 <div className='flex items-center justify-center'>
-                    <img src={image} alt='sample' className='w-full h-auto object-cover' />
+                    <img src={image} alt='sample' className='w-full object-cover' />
 
                 </div>
             </div>

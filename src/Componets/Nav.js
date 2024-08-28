@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import image from "../Images/logo.jpg";
 import { Link } from "react-router-dom";
 
+
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,27 +10,27 @@ const Nav = () => {
     {
       name: "Home",
       link: "/",
-      icon: <ion-icon name="home-outline"></ion-icon>,
+      //   icon: <ion-icon name="home-outline"></ion-icon>,
     },
     {
       name: "Contact",
-      link: "/",
-      icon: <ion-icon name="person-add-outline"></ion-icon>,
+      link: "/contact",
+      // icon: <ion-icon name="person-add-outline"></ion-icon>,
     },
     {
       name: "Term & Condition",
       link: "/",
-      icon: <ion-icon name="newspaper-outline"></ion-icon>,
+      // icon: <ion-icon name="newspaper-outline"></ion-icon>,
     },
     {
       name: "About Us",
       link: "/",
-      icon: <ion-icon name="people-outline"></ion-icon>,
+      // icon: <ion-icon name="people-outline"></ion-icon>,
     },
     {
-      name: "Login",
-      link: "/login",
-      icon: <ion-icon name="people-outline"></ion-icon>,
+      // name: "Login",
+      // link: "/login",
+      // icon: <ion-icon name="people-outline"></ion-icon>,
     },
   ];
 
