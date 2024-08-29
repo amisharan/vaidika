@@ -19,12 +19,12 @@ const Nav = () => {
     },
     {
       name: "Term & Condition",
-      link: "/",
+      link: "/termcondition",
       // icon: <ion-icon name="newspaper-outline"></ion-icon>,
     },
     {
       name: "About Us",
-      link: "/",
+      link: "/about",
       // icon: <ion-icon name="people-outline"></ion-icon>,
     },
     {

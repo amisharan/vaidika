@@ -11,6 +11,9 @@ import Footer from "../src/Footer/footer";
 
 import Home from "../src/Home/home";
 
+import Term from "./Term/term";
+import About from "./About/about";
+
 function App() {
   return (
 
@@ -19,7 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Login />} />
-
+        <Route path="/termcondition" element={<Term />} />
+        <Route path="about" element={<About />} />
 
       </Routes>
       <Footer />

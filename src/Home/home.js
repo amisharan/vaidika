@@ -10,6 +10,7 @@ import Vaid from "../Vaid/vaid";
 import Vaidi from "../Vaidi/vaidi";
 import Vaidik from "../Vaidik/vaidik";
 
+
 // import Nav from "./Componets/Nav";
 
 export default function home() {
@@ -25,6 +26,7 @@ export default function home() {
             <Vaid />
             <Vaidi />
             <Vaidik />
+
 
         </div>
     )
