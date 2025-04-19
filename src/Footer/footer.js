@@ -35,7 +35,7 @@ function Footer() {
         <div className="mt-24 bg-slate-900 text-white py-8 px-4">
             <div className="max-w-[1240px] mx-auto flex flex-col items-center">
 
-                <div className="w-full flex flex-col md:flex-row justify-center gap-60">
+                <div className="w-full flex flex-col md:flex-row justify-center gap-2 md:gap-60">
 
                     <div className="text-center md:text-left">
                         <h6 className="font-bold uppercase pt-2">Quick Links</h6>
