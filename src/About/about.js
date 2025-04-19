@@ -2,6 +2,7 @@ import React from 'react'
 import image from "../Images/b2.jpg"
 import image1 from "../Images/b8.jpg"
 import image3 from "../Images/b6.jpeg"
+import image4 from "../Images/key.jpg"
 import Footer from "../Footer/footer"
 
 function about() {
@@ -13,7 +14,7 @@ function about() {
                     <h1 className=" text-4xl  md:text-5xl lg:text-5xl  font-bold font-Poppins">About Us</h1>
                     <div>
                         <h1 className="  sm:text-xs md:text-xl lg:text-2xl  mb-4 leading-tight ">
-                            Our Management who are the driving force of the Organization
+                            Vaidika App is a ritual application which offers live streaming, ritual wears, pandit ji hiring, ritual shops and ritual products for the public.
                         </h1>
                     </div>
                 </div>
@@ -32,7 +33,8 @@ function about() {
 
                     </h1>
 
-                    <p className=' mt-4 text-sm md:text-base lg:text-lg leading-relaxed mb-4'>Puja Services is the Number One preferred Digital Platform for ALL Hindu Devotional needs and Spiritual services. Puja Services has been established to connect the current and future generations to Hinduism digitally (Web Portal, Android and iOS). In this age of Globalisation and Technology, the present and upcoming generations are moving away from their cultural roots. With the westernization taking over the culture, the age-old traditions, values and etiquettes are becoming extinct. To address these problems, Our attempt with Puja services is to ensure that the Origins, History, Culture of Hinduism are not forgotten and carry forwarded to generations to come and bringing them closer to spirituality. Our goal is to ensure that the roots and culture of Hinduism are preserved and carry forwarded for generations to come.</p>
+                    <p className=' mt-4 text-sm md:text-base lg:text-lg leading-relaxed mb-4'>Vaidika is a comprehensive spiritual and religious mobile application designed to connect users with the rich traditions of Hinduism and Vedic knowledge.
+                        With a user-friendly interface, Vaidika brings the rituals to your fingertips, making it easier than ever to maintain a devout lifestyle wherever you are.</p>
 
                 </div>
 
@@ -56,6 +58,42 @@ function about() {
 
 
                 </div>
+            </div>
+            <div className='bg-gradient-to-b from-red-50 to-red-300  min-h-screen grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-8 lg:px-16 py-8'>
+
+                <div className='flex justify-center items-center'>
+                    <img src={image4} alt='sample' className='w-full h-90 object-cover rounded-lg shadow-md' />
+
+
+                </div>
+                <div className='flex flex-col justify-center p-4 '>
+
+                    <h1 className='text-3xl font-bold flex md:text-3xl lg:text-4xl mb-4'>key features
+
+
+                    </h1>
+                    <ul>
+                        <th>live streaming</th>
+                        <li>Video Streaming:- Vaidika offers live Aarti from different Temples where devotees can take the benefit of getting connected from different Temples.
+                        </li>
+                        <li>Event Notifications:- Be alerted about upcoming spiritual events, or festivals, so you can participate.
+                        </li>
+
+                    </ul>
+                    <ul>
+                        <th>Rituals & Ceremonies</th>
+                        <li>Step-by-Step Guides:- Whether you're performing a simple prayer at home or conducting a complex ritual, Vaidika offers ritual products, an idol for the ceremony.</li>
+                        <li>Hire Pandit ji:- Vaidika has a unique feature where you can hire pandit ji for the rituals and ceremony through your mobile.
+                        </li>
+                    </ul>
+                    <ul>
+                        <th>Privacy & Security</th>
+                        <li>Confidentiality Assured: Vaidika respects your privacy and your data remain confidential. You can engage fully without any concerns about your personal data. </li>
+                    </ul>
+
+                </div>
+
+
             </div>
             <Footer />
         </div>

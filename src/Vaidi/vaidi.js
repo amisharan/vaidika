@@ -13,12 +13,12 @@ function vaidi() {
             </div>
             <div className='flex flex-col justify-center p-4 '>
 
-                <h1 className='text-2xl font-bold flex justify-center items-center md:text-2xl lg:text-3xl mb-4'>Lorem lpsum
+                <h1 className='text-2xl font-bold flex justify-center items-center md:text-2xl lg:text-3xl mb-4'>Event Notifications
 
 
                 </h1>
 
-                <p className=' mt-4 text-sm md:text-base lg:text-lg leading-relaxed mb-4'>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className=' mt-4 text-sm md:text-base lg:text-lg leading-relaxed mb-4'>Be alerted about upcoming spiritual events, or festivals, so you can participate.</p>
                 <div className='flex item-center justify-center mt-4'>
                     <button className="bg-white text-red-800 font-bold sm:px-6 sm:py-3 rounded-full border-2 border-red-800 w-full sm:w-auto">
                         Download Now

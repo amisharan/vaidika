@@ -14,6 +14,7 @@ import Home from "../src/Home/home";
 import Term from "./Term/term";
 import About from "./About/about";
 
+
 function App() {
   return (
 
@@ -23,7 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Login />} />
         <Route path="/termcondition" element={<Term />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
 
       </Routes>
       <Footer />

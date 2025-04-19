@@ -1,10 +1,10 @@
 import React from 'react'
 import Banner from "../Banner/banner";
 import Heading from "../Heading/heading";
-import Menu from "../Menu/menu";
-import Live from "../Live/live";
-import Card from "../Card/card";
-import Pandit from "../Pandit/pandit";
+// import Menu from "../Menu/menu";
+// import Live from "../Live/live";
+// import Card from "../Card/card";
+// import Pandit from "../Pandit/pandit";
 import Cardgrid from "../Cardgrid/cardgrid";
 import Vaid from "../Vaid/vaid";
 import Vaidi from "../Vaidi/vaidi";
@@ -18,10 +18,10 @@ export default function home() {
         <div>
             <Banner />
             <Heading />
-            <Menu />
+            {/* <Menu />
             <Live />
-            <Card />
-            <Pandit />
+            <Card /> */}
+            {/* <Pandit /> */}
             <Cardgrid />
             <Vaid />
             <Vaidi />
