@@ -12,20 +12,21 @@ const Nav = () => {
       link: "/",
       //   icon: <ion-icon name="home-outline"></ion-icon>,
     },
-    {
-      name: "Contact",
-      link: "/contact",
-      // icon: <ion-icon name="person-add-outline"></ion-icon>,
-    },
-    {
-      name: "Term & Condition",
-      link: "/termcondition",
-      // icon: <ion-icon name="newspaper-outline"></ion-icon>,
-    },
+
+    // {
+    //   name: "Term & Condition",
+    //   link: "/termcondition",
+    //   icon: <ion-icon name="newspaper-outline"></ion-icon>,
+    // },
     {
       name: "About Us",
       link: "/about",
       // icon: <ion-icon name="people-outline"></ion-icon>,
+    },
+    {
+      name: "Contact",
+      link: "/contact",
+      // icon: <ion-icon name="person-add-outline"></ion-icon>,
     },
     {
       // name: "Login",
@@ -54,7 +55,7 @@ const Nav = () => {
               <li key={index} className="text-xl">
                 <Link
                   to={link.link}
-                  className="flex items-center space-x-2 text-gray-800 hover:text-blue-600 "
+                  className="flex items-center space-x-2 text-gray-800 hover:text-red-600 "
                 >
                   {link.icon}
                   <span>{link.name}</span>
@@ -66,13 +67,13 @@ const Nav = () => {
 
 
         <div className="hidden md:flex items-center space-x-4 text-red-700 ">
-          <button>
+          <button style={{ fontSize: "28px" }}>
             <ion-icon name="logo-instagram"></ion-icon>
           </button>
-          <button>
+          <button style={{ fontSize: "28px" }}>
             <ion-icon name="logo-facebook"></ion-icon>
           </button>
-          <button>
+          <button style={{ fontSize: "28px" }}>
             <ion-icon name="logo-twitter"></ion-icon>
           </button>
         </div>
