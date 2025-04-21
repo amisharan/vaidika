@@ -51,18 +51,18 @@ const Login = () => {
                 <div className='flex-1 px-4 sm:px-8  md:px-10 lg:px-12'>
                     <h3 className='text-2xl font-bold sm:text-3xl mb-6'>Get Here</h3>
                     <div className='mb-4'>
-                        <a href="#" className='text-blue-500 flex item-center'><FaLocationCrosshairs className='mr-2' />Budhwa (Old) Mahadeo Talaab, NawabGanj, Hazaribagh, Jharkhand 825301</a>
+                        <a href="#" className='text-blue-500 flex item-center'><FaLocationCrosshairs className='mr-2' />New Adarsh Nagar, Hatwar, Ranchi, Jharkhand 834001</a>
                     </div>
                     <div>
-                        <a href="#" className='text-blue-500 flex item-center' ><FaPhone className='mr-2' />+91 1234567899</a>
+                        <a href="#" className='text-blue-500 flex item-center' ><FaPhone className='mr-2' />+91 9471352463</a>
                     </div>
                     <div>
-                        <a href='#' className='text-blue-500 flex item-center'><FaMailBulk className='mr-2' /> info@gangaaarti.com</a>
+                        <a href='#' className='text-blue-500 flex item-center'><FaMailBulk className='mr-2' /> reply.vaidikaapp@gmail.com</a>
                     </div>
                     <div className='relative overflow-hidden '>
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.9850637195177!2d85.35869487512316!3d23.996304528503387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f49c1be728aae9%3A0x9d5954565b95cde1!2sBudhwa%20(Old)%20Mahadeo%20Talaab!5e0!3m2!1sen!2sin!4v1723287453266!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3662.304689142315!2d85.3574275!3d23.3771923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e3d962fa464b%3A0x16767e6573f86e61!2sKokar%20Chowk%2C%20New%20Adarsh%20Nagar%2C%20Hatwar%2C%20Ranchi%2C%20Jharkhand%20834001!5e0!3m2!1sen!2sin!4v1745059810278!5m2!1sen!2sin"
                             width={800}
                             height={400}
                             allowFullScreen=""

@@ -2,7 +2,7 @@ import React from 'react'
 import image from "../Images/b2.jpg"
 import image1 from "../Images/b8.jpg"
 import image3 from "../Images/b6.jpeg"
-import image4 from "../Images/key.jpg"
+import image4 from "../Images/key features.jpg"
 import Footer from "../Footer/footer"
 
 function about() {
@@ -68,12 +68,12 @@ function about() {
                 </div>
                 <div className='flex flex-col justify-center p-4 '>
 
-                    <h1 className='text-3xl font-bold flex md:text-3xl lg:text-4xl mb-4'>key features
+                    <h1 className='text-3xl font-bold flex md:text-3xl lg:text-4xl mb-4'>Key Features
 
 
                     </h1>
                     <ul>
-                        <th>live streaming</th>
+                        <th>Live Streaming</th>
                         <li>Video Streaming:- Vaidika offers live Aarti from different Temples where devotees can take the benefit of getting connected from different Temples.
                         </li>
                         <li>Event Notifications:- Be alerted about upcoming spiritual events, or festivals, so you can participate.
