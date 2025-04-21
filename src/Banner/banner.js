@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-end p-4 md:p-8 lg:p-12">
         <div className="text-right text-white max-w-lg">
           <h1 className="text-3xl font-Poppins font-bold sm:text-4xl md:text-5xl lg:text-6xl mb-4 leading-tight">
-            Watch Live Aarti on the Vadika
+            Watch Live Aarti on the Vaidika
           </h1>
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
             <button className="bg-transparent text-white font-bold px-4 sm:px-6 py-2 sm:py-3 border border-white rounded-full hover:bg-red-700 hover:border-transparent transition duration-300 w-full sm:w-auto">

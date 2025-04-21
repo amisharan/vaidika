@@ -67,7 +67,6 @@ function Footer() {
                                     href="/privacy-policy.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    download
                                     className="text-gray-500 hover:text-white cursor-pointer text-sm md:text-base"
                                 >
                                     Privacy Policies
@@ -78,31 +77,28 @@ function Footer() {
                                     href="/seller-agreement.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    download
                                     className="text-gray-500 hover:text-white cursor-pointer text-sm md:text-base"
                                 >
-                                    Seller Agreement
+                                    Deletion policies
                                 </a>
                             </li>
                         </ul>
                     </div>
-                </div>
 
-                <div className="pt-6">
-                    <div className="flex justify-center items-center gap-6 text-2xl">
-                        {items.map((x, index) => (
-                            <a
-                                key={index}
-                                href={x.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label={x.name}
-                                className="hover:text-white text-gray-400 transition-colors duration-300"
-                            >
-                                <x.icon />
-                            </a>
-                        ))}
-                    </div>
+                </div>
+                <div className="flex justify-center space-x-4 mt-6">
+                    {items.map(({ name, icon: Icon, link }) => (
+                        <a
+                            key={name}
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-white text-xl"
+                            aria-label={name}
+                        >
+                            <Icon />
+                        </a>
+                    ))}
                 </div>
 
                 <div className="w-full border-b-2 border-gray-600 mt-6"></div>
