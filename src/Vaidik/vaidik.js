@@ -17,11 +17,14 @@ function vaidik() {
                     </button>
                 </div>
             </div>
-            <div className='flex justify-center items-center'>
-                <img src={image} alt='sample' className='w-full object-cover rounded-lg shadow-md' />
-
-
+            <div className='flex justify-center items-center h-[650px] overflow-hidden'>
+                <img
+                    src={image}
+                    alt='sample'
+                    className='w-full h-full object-cover rounded-lg shadow-md'
+                />
             </div>
+
         </div>
 
 

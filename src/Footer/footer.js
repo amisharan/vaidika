@@ -82,6 +82,16 @@ function Footer() {
                                     Deletion policies
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href="/Vaidika term and condition.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-500 hover:text-white cursor-pointer text-sm md:text-base"
+                                >
+                                    Term and Condition
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
