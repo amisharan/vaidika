@@ -19,10 +19,18 @@ function vaidi() {
                 </h1>
 
                 <p className=' mt-4 text-sm md:text-base lg:text-lg leading-relaxed mb-4'>Be alerted about upcoming spiritual events, or festivals, so you can participate.</p>
-                <div className='flex item-center justify-center mt-4'>
-                    <button className="bg-white text-red-800 font-bold sm:px-6 sm:py-3 rounded-full border-2 border-red-800 w-full sm:w-auto">
-                        Download Now
-                    </button></div>  </div>
+                <div className="flex items-center justify-center mt-3">
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.vaidika.puja_store"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="bg-white text-red-800 font-bold sm:px-6 sm:py-3 rounded-full border-2 border-red-800 w-full sm:w-auto transition duration-300 ease-in-out hover:bg-red-800 hover:text-white hover:scale-105">
+                            Download Now
+                        </button>
+                    </a>
+                </div>
+            </div>
 
 
         </div>

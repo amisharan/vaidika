@@ -11,11 +11,19 @@ function vaidik() {
                 <h1 className='text-2xl font-bold  flex justify-center items-center md:text-2xl lg:text-3xl'>Hire Pandit
                 </h1>
                 <p className=' mt-6 text-sm md:text-base lg:text-lg leading relaxed'>Vaidika has a unique feature where you can hire pandit ji for the rituals and ceremony through your mobile.</p>
-                <div className='flex item-center justify-center mb-2'>
-                    <button className="bg-white text-red-800 font-bold sm:px-6 sm:py-3 rounded-full border-2 border-red-800 w-full sm:w-auto">
-                        Download Now
-                    </button>
+                <div className="flex items-center justify-center mt-3">
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.vaidika.puja_store"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="bg-white text-red-800 font-bold sm:px-6 sm:py-3 rounded-full border-2 border-red-800 w-full sm:w-auto transition duration-300 ease-in-out hover:bg-red-800 hover:text-white hover:scale-105">
+                            Download Now
+                        </button>
+                    </a>
                 </div>
+
+
             </div>
             <div className='flex justify-center items-center h-[650px] overflow-hidden'>
                 <img

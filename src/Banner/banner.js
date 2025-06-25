@@ -12,9 +12,15 @@ const Banner = () => {
             Watch Live Aarti on the Vaidika
           </h1>
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-            <button className="bg-transparent text-white font-bold px-4 sm:px-6 py-2 sm:py-3 border border-white rounded-full hover:bg-red-700 hover:border-transparent transition duration-300 w-full sm:w-auto">
-              Download
-            </button>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.vaidika.puja_store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-transparent text-white font-bold px-4 sm:px-6 py-2 sm:py-3 border border-white rounded-full hover:bg-red-700 hover:border-transparent transition duration-300 w-full sm:w-auto">
+                Download
+              </button>
+            </a>
           </div>
         </div>
         {/* Bottom-right corner credit */}
