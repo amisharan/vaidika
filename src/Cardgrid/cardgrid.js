@@ -42,7 +42,10 @@ function CardGrid() {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-6 auto-rows-fr">
             {Link.map((link) => (
-                <div key={link.id} className="flex flex-col bg-white border-2 rounded overflow-hidden shadow-lg">
+                <div
+                    key={link.id}
+                    className="flex flex-col bg-white border-2 rounded overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl cursor-pointer"
+                >
                     <div className="relative w-full h-48">
                         <img
                             src={link.src}
